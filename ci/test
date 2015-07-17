@@ -1,0 +1,11 @@
+#!/bin/bash -ex
+
+virtualenv /tmp/testrepo-virtualenv
+
+PATH=/tmp/testrepo-virtualenv/bin:$PATH
+
+make install-requirements
+
+make lint
+
+py.test tests --junit-xml=junit.xml
