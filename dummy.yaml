@@ -1,0 +1,4 @@
+build.file-blacklist:
+	- ci/*
+	- other/*
+	- a.txt
