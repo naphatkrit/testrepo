@@ -1,4 +1,4 @@
 build.file-blacklist:
-	- ci/*
-	- other/*
-	- a.txt
+    - ci/*
+    - other/*
+    - a.txt
