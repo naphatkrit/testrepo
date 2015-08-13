@@ -11,3 +11,4 @@ make lint
 py.test tests --junit-xml=junit.xml
 
 true
+true
